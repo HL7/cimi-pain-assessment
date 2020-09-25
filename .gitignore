@@ -1,0 +1,12 @@
+/temp**
+/template**
+/input**
+/input-cache**
+/ig.ini
+/package.json
+/package-list.json
+/*.sh
+/*.bat
+logfile.txt
+.DS_Store
+SUSHI-GENERATED-FILES.md
