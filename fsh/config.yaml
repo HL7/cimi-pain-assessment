@@ -1,5 +1,5 @@
-id: fhir.cimi.pain.assessment
-canonical: http://hl7.org/fhir/cimi-pain-assessment
+id: hl7.fhir.uv.cimiPainAssessment
+canonical: http://hl7.org/fhir/uv/cimi-pain-assessment
 name: pain-assessment
 title: HL7 FHIR Pain Assessment Implementation Guide
 description: An IG that defines the profiles to be used for pain assessment use cases.
@@ -8,11 +8,17 @@ version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2020+
 releaseLabel: ci-build
-template: hl7.fhir.template#0.0.5
+template: hl7.fhir.template#0.1.0
+menu:
+  Home: index.html
+  Profiles: artifacts.html#
+  Extensions: artifacts.html#2
+  Value Sets: artifacts.html#3
 publisher:
   name: Clinical Information Modeling Initiative
   url: https://confluence.hl7.org/display/CIMI/Clinical+Information+Modeling+Initiative
   email: cimi@lists.HL7.org
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 dependencies:
   hl7.fhir.us.core: 3.1.0
 FHSOnly: false

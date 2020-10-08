@@ -1,6 +1,6 @@
 ValueSet: TimeUnitsVS
 Id: time-units-value-set
-Title: "Pain Duration value set"
+Title: "Time Units of Measure value set"
 Description: "A set of UCUM codes that represesnt the relative length that pain lasted for an individual."
 * ^version = "0.1.0"
 * UCUM#h "hours"
@@ -88,7 +88,7 @@ Description: "A set of SNOMED CT codes that describe things that make pain worse
 
 ValueSet: PainAlleviatingFactorVS
 Id: pain-alleviating-factor-value-set
-Title: "Pain Alleviating Factore value set"
+Title: "Pain Alleviating Factor value set"
 Description: "A set of SNOMED CT codes that describe things that make pain better."
 * ^version = "0.1.0"
 
@@ -227,7 +227,6 @@ Title: "Historical Indicator value set"
 Description: "A set of codes for an indication that the asserted condition or problem occured in the past."
 * ^version = "0.1.0"
 * SCT#392521001 "History of (contextual qualifier) (qualifier value)"
-* SCT#57177007 "Family history of with explicit context (situation)"
 
 ValueSet: AssociatedConditionVS
 Id: associated-condition-value-set

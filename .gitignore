@@ -1,7 +1,8 @@
 /temp**
 /template**
 /input**
-/input-cache**
+/inputcache**
+build//input-cache**
 /ig.ini
 /package.json
 /package-list.json
@@ -11,3 +12,4 @@ logfile.txt
 .DS_Store
 SUSHI-GENERATED-FILES.md
 /*.jar
+/output
