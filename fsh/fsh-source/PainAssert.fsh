@@ -183,7 +183,7 @@ Description: "A complex extension that describes a body location in detail inclu
     BodySide 0..1 and
     BodyLocationQualifier 0..1 and
     BodySite 0..1 and
-    UdnerlyingAnatomicalStructure 0..1 and
+    UnderlyingAnatomicalStructure 0..1 and
     BodyLandmarkOrientation 0..1 and 
     BodyLocationPrecoord 0..1
 * value[x] 0..0
@@ -195,7 +195,7 @@ Description: "An extension for qualifying information about the body location."
 * value[x] only CodeableConcept
 * value[x] from BodyLocationQualifierVS (preferred)
 
-Extension: UdnerlyingAnatomicalStructure
+Extension: UnderlyingAnatomicalStructure
 Id: underlying-anatomical-structure-extension
 Title: "Underlying Anatomical Structure"
 Description: "An extension that describes any notable body structures that are underneath a give body site."
